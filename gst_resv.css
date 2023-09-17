@@ -1,0 +1,56 @@
+/*common*/
+.inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  img {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+
+.inner .box {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+
+/*resv room card*/
+.room-card-img {
+    width: 50%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.room-card-body {
+    position: absolute;
+    margin-left: 50%;
+  }
+
+.room-card-title{
+    text-align:center;
+}
+.room-card-text {
+
+}
+
+.list-group .img {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+}

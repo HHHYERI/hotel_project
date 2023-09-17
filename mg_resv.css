@@ -1,0 +1,129 @@
+/*common*/
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #c8c8c8;
+  top:0;
+}
+header > .inner {
+  height: 120px;   
+}
+header .logo {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  margin: auto;
+}
+header .mg-menu {
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  display: flex;
+}
+header .mg-menu ul.menu {
+  display: flex;
+  font-size: Arial;
+}
+header .mg-menu ul.menu li {
+  position: relative;
+  list-style: none;
+}
+header .mg-menu ul.menu li a {
+  font-size: 13px;
+  padding: 11px 16px;
+  display: block;
+  color: #656565;
+}
+header .mg-menu ul.menu li a:hover {
+  color: #000;
+}
+
+
+
+/*SEARCH*/
+.inner .box {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.box-notice-valid{
+  text-align: center;
+  padding: 5px;
+  background-color: #138496;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.box-notice-cancel{
+  text-align: center;
+  padding: 5px;
+  background-color: #dc3545;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.search-bar{
+  display: block;
+  background-color: #c8c8c8;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.inner .search-op {
+  display: block;
+  width: 100px;
+  top: 10px;
+  left: 10px;
+}
+
+.inner .search-btn{
+  width: 100px;
+  position: absolute;
+  box-align: center;
+  bottom: 10px;
+  right: 10px;
+}
+table{
+  width: 1100px;
+  box-align: center;
+  border: 1px;
+  border-style: solid;
+}
+
+.btn {
+  
+}
+
